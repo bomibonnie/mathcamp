@@ -1,0 +1,13 @@
+---
+title: "Sets and Functions"
+author: "Bomi Lee"
+date: "8/19/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+## Outline
