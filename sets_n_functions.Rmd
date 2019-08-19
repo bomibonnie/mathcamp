@@ -11,3 +11,129 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Outline
+
+Sets
+
+* Set Notation
+* Ven Diagrams
+
+Functions
+
+* Function Compositions
+* Function Inverses
+* Graphs
+* Polynomials 
+
+## Set Notation 1
+* A **Set** is a collection of things that are often, but not necessarily, numbers.
+
+* A = {a, b, ...}
+* $a \in A$
+* $\emptyset$: the empty set
+* U: the universal set
+
+## Set Notation 2
+* $A \cup B$: the union of sets A and B
+* $A \cap B$: the intersection of sets A and B
+* Mutually exclusive
+  + if $A \cap B$ = $\emptyset$
+ 
+* $\tilde{A}$ or $A^{c}$: the complement of set A
+* $A \subset B$: A is a subset of B
+
+## Set Notation 3
+* A = $\{x \in R|x>100\}$
+
+## Set Notation: examples
+* A = $\{x \in Z| 1 \le x \le 6\}$
+* A = $\{x \in Z| 1 < x < 6\}$
+
+* A = $\{x \in R| 1 \le x \le 6\}$
+* A = $\{x \in R| 1 \le x < 6\}$
+* A = $\{x \in R| 1 < x < 6\}$
+
+## Ven Diagrams
+* $A \cup B$
+* $A \cap B$
+* $A^{c} \cap B$
+
+## The Algebra of Sets
+* Commutative
+  + $A \cup B$ = $B \cup A$
+ 
+* Associative
+  + $A \cap (B \cap C)$  = $(A \cap B) \cap C$
+
+* Distributive
+  + $A \cap (B \cup C)$ = $(A \cap B) \cup (A \cap C)$
+  + $A \cup (B \cap C)$ = $(A \cup B) \cap (A \cup C)$
+
+## The Algebra of Sets 2
+
+* DeMorgan's law
+  + $(A \cup B)^{c}$ = $A^{c} \cap B^{c}$ 
+  + $(A \cap B)^{c}$ = $A^{c} \cup B^{c}$ 
+
+* $(A^{c})^{c}$ = A
+
+* $A \cap A^{c}$ = $\emptyset$
+
+## Exercises
+
+* $A^{c} \cap B$
+
+* $A \cap (B \cap C)$
+
+* $(A \cup B) \cap (A \cup B^{c})$
+
+* $(A^{c} \cap B) \cup (A \cap C)$
+
+## Functions
+
+* A correspondence is a function if and only if each input is associated with no more than on unique output (Kropko).
+
+* Any relation that has a unique value in its range (y values) for each value in its domain (x values) (Moore and Siegel)
+
+* Example: $f(x) = 2x + 3$
+ + Roll a dice
+
+* Input-Output, Domain-Range
+ 
+## Function Compositions
+
+* If f and g are functions, the composition of f with g is $f(g(x))$.
+
+* Examples
+
+## Function Inverses
+
+* Two functions $f$ and $g$ are said to be inverses of each other if and only if $f(g(x))$ = x and $g(f(x))$ = x.
+  + $g(x) = f^{-1}(x)$ and $f(x) = g^{-1}(x)$
+
+## Graphs
+
+* A graph is a collection of points on a grid, where the horizontal position of the point represents the input and the vertical position of the point represents the output. 
+
+* Example: $f(x) = 2x + 3$
+
+* Domain and range!
+
+## Polynomials & Linear Functions
+
+* $f(x) = 2x + 3$
+  + What represents the slope?
+  + What represents the y-intercept?
+  
+* A linear function is a first-degree polynomial that takes the form, $f(x) = ax + b$
+
+* Polynomials are functions that sums of the powers of x
+multiplied by constants.
+  + Examples: $f(x) = 7x^{5} - 4x^{4} + 8x^{2} - 10$ 
+  + Time, age, ...
+  
+## Higher-Order Polynomials
+
+* Quadratic
+* Cubic
+
+* https://www.mathway.com/Graph
